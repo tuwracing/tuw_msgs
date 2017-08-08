@@ -17,6 +17,11 @@ uint8 STATE_ACTIVE=3
 uint8 STATE_EBS=4
 uint8 STATE_FINISHED=5
 
+uint8 EBS_STATE_TRIGGERED=7
+uint8 EBS_STATE_AVAILABLE=6
+uint8 EBS_STATE_DEACTIVATED=5
+
 uint8 state
 uint8 mission
+uint8 ebs_state
 uint8[] failed_systems
