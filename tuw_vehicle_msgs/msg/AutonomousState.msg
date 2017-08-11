@@ -25,3 +25,4 @@ uint8 state
 uint8 mission
 uint8 ebs_state
 uint8[] failed_systems
+bool ebs_failure_detected
