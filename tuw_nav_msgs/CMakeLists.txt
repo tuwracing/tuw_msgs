@@ -63,6 +63,8 @@ find_package(catkin REQUIRED COMPONENTS
   IwsCmd_VWWT_Vec.msg
   DiffDriveCmd_VW_Vec.msg
   PathVec.msg
+  Track.msg
+  TrackMarking.msg
 )
 
 ## Generate services in the 'srv' folder

@@ -58,8 +58,6 @@ add_message_files(
    BatteryState.msg
    RWDMotion.msg
    RWDKinCmd.msg
-   Track.msg
-   TrackMarking.msg
    CmdMpcVec_vphi.msg
 )
 
