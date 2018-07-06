@@ -57,6 +57,7 @@ Pose& Pose::setXYZ ( double x, double y, double z ) {
 }
 Pose& Pose::setOrientation ( double x, double y, double z, double w ) {
     orientation.x = x, orientation.y = y, orientation.z = z, orientation.w = w;
+    return *this;
 }
 Pose& Pose::setRPY ( double roll, double pitch, double yaw ) {
     double halfYaw = double ( yaw ) * double ( 0.5 ), halfPitch = double ( pitch ) * double ( 0.5 ), halfRoll = double ( roll ) * double ( 0.5 );
